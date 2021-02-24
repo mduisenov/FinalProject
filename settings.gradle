@@ -1,2 +1,8 @@
+include ':app:profile'
+include ':app:home'
+include ':app:base'
+include ':app:search'
+include ':domain'
+include ':data'
 include ':app'
 rootProject.name = "MyApp"

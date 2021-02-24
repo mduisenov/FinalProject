@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.myapp.ui.home.HomeFragment"
+        android:name="io.dar.home.HomeFragment"
         android:label="home_fragment"
         tools:layout="@layout/home_fragment" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.myapp.ui.profile.ProfileFragment"
+        android:name="io.dar.profile.ProfileFragment"
         android:label="profile_fragment"
         tools:layout="@layout/profile_fragment" />
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.example.myapp.ui.search.SearchFragment"
+        android:name="io.dar.search.SearchFragment"
         android:label="search_fragment"
         tools:layout="@layout/search_fragment" />
 
